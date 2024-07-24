@@ -12,7 +12,7 @@ LLAMA-2's significance extends beyond licensing adjustments. It pioneers Paramet
 
 The results of the fine-tuned model showcase exceptional accuracy, F1 scores, precision, and recall, particularly when addressing the challenges posed by imbalanced data. Notably, the model's performance in threat classification is acknowledged as an area for potential improvement, attributed to the limited number of training examples for this class. It is evident that with increased data on minority classes and further training, the model's capabilities can be optimized, promising even better results in future iterations. The deployment of techniques like Quantization and PEFT, alongside the capabilities of LLAMA-2, underscores the potential of state-of-the-art language models for complex classification tasks.
 
-
-#**Future Research Directions**:
+![confusion_matrix](Confusion_matrix.png)
+#Future Research Directions**:
 
 * Mistral AI's release of an MoE model, a scaled-down version of GPT-4 with 8 experts, presents an intriguing avenue for exploration. Mixture of Experts is a technique that divides complex tasks into smaller, specialized sub-tasks, each handled by an expert. Mistral's MoE model, with only 2 experts used for the inference of each token, showcases a more efficient architecture. The model achieves a significant reduction in parameters compared to GPT-4 while maintaining a comparable context size. Future research could delve into the application of MoE techniques for enhancing the efficiency and accuracy of text classification tasks. Understanding how to leverage the expertise of specialized models for different aspects of text classification and generation may lead to significant advances in text classification particulary on hard datsets like Toxicity classification
